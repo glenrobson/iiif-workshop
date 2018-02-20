@@ -63,24 +63,23 @@ Viewers & Image Servers:
 
 Image Server options:
 
-Hosted
-  * Klokan: https://www.iiifhosting.com/
-  * Digirati: https://dlcs.info/
-
-Static tiles
-  * https://github.com/zimeon/iiif/tree/master/demo-static
-
-IIIF Image server
-  * https://github.com/IIIF/awesome-iiif#image-servers
-
-Provided by DAMS/Repository
-  * ContentDM: https://www.oclc.org/developer/news/2017/image-open-access.en.html
-  * Rosetta: https://knowledge.exlibrisgroup.com/Rosetta/Training/What%27s_New_Videos/Rosetta_5-3/IIIF_Image_Viewing
-  * Axiell Collections" http://alm.axiell.com/collections-management-solutions/axiell-collections/
+ * Hosted
+    * Klokan: https://www.iiifhosting.com/
+    * Digirati: https://dlcs.info/
+ * Static tiles
+    * https://github.com/zimeon/iiif/tree/master/demo-static
+    * Example: https://glenrobson.github.io/iiif/2018/01/12/iiif-from-scrtach.html
+ * IIIF Image server
+    * https://github.com/IIIF/awesome-iiif#image-servers
+ * Provided by DAMS/Repository
+    * ContentDM: https://www.oclc.org/developer/news/2017/image-open-access.en.html
+    * Rosetta: https://knowledge.exlibrisgroup.com/Rosetta/Training/What%27s_New_Videos/Rosetta_5-3/IIIF_Image_Viewing
+    * Axiell Collections" http://alm.axiell.com/collections-management-solutions/axiell-collections/
 
 
 Image API Cantaloupe install
  * https://iiif.github.io/training/intro-to-iiif/INSTALLING_CANTALOUPE.html
+ * If you don't have access to the command line you can download the following bat file to start Cantaloupe: [startCantaloupe.bat](files/startCantaloupe.bat)
 
 Exercises
  * Show image in Leaflet
@@ -119,7 +118,7 @@ Example manifest with OCR annotations:
  * https://damsssl.llgc.org.uk/iiif/2.0/1097087/manifest.json
 
 Creating your own manifest:
- * ronallo.com/iiif-workshop/presentation/creating-manifest.html
+ * http://ronallo.com/iiif-workshop/presentation/creating-manifest.html
 
 IIIF Audio and Visual
  * Fire example: https://tomcrane.github.io/fire/
@@ -205,6 +204,8 @@ Cooper Hewitt Example metadata:
 
 ## Contact
 
- Glen Robson - IIIF Technical Coordinator
- glen.robson [at] iiif.io
+Glen Robson - IIIF Technical Coordinator
+
+glen.robson [at] iiif.io
+
 twitter: @glenrobson
