@@ -61,15 +61,19 @@ Tiles:
 Viewers & Image Servers:
  * https://github.com/IIIF/awesome-iiif   
 
-Image Server options
- - Hosted
+Image Server options:
+
+Hosted
   * Klokan: https://www.iiifhosting.com/
   * Digirati: https://dlcs.info/
- - Static tiles
+
+Static tiles
   * https://github.com/zimeon/iiif/tree/master/demo-static
- - IIIF Image server
+
+IIIF Image server
   * https://github.com/IIIF/awesome-iiif#image-servers
- - Provided by DAMS/Repository
+
+Provided by DAMS/Repository
   * ContentDM: https://www.oclc.org/developer/news/2017/image-open-access.en.html
   * Rosetta: https://knowledge.exlibrisgroup.com/Rosetta/Training/What%27s_New_Videos/Rosetta_5-3/IIIF_Image_Viewing
   * Axiell Collections" http://alm.axiell.com/collections-management-solutions/axiell-collections/
@@ -79,16 +83,16 @@ Image API Cantaloupe install
  * https://iiif.github.io/training/intro-to-iiif/INSTALLING_CANTALOUPE.html
 
 Exercises
- - Show image in Leaflet
-  * http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json
+ * Show image in Leaflet
+    * http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json
  - Show image in Openseadragon
-  * Todo
- - Image cropping
-  * https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.ucd.ie/loris/ivrla:10408
- - HTML page:
-  * Create simple HTML page with img link
- - Image comparison:
-  * http://ronallo.com/iiif-workshop/image/comparison.html
+    * Todo
+ * Image cropping
+    * https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.ucd.ie/loris/ivrla:10408
+ * HTML page:
+    * Create simple HTML page with img link
+ * Image comparison:
+    * http://ronallo.com/iiif-workshop/image/comparison.html
 
 ## Presentation API
 
@@ -128,14 +132,14 @@ Authentication API:
  * http://iiif.io/api/auth/1.0/
 
 Exercises
- - Validate Manifest with
-  * http://iiif.io/api/presentation/validator/service
- - Open in Mirador
-  * http://projectmirador.org/
- - Open in UV
-  * http://universalviewer.io/
- - Annotate with
-  * http://swib.gdmrdigital.com/
+ * Validate Manifest with
+    * http://iiif.io/api/presentation/validator/service
+ * Open in Mirador
+    * http://projectmirador.org/
+ * Open in UV
+    * http://universalviewer.io/
+ * Annotate with
+    * http://swib.gdmrdigital.com/
 
 Community:
  * Email group: iiif-discuss@google.com   
@@ -159,12 +163,12 @@ Search in UV:
   * https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01/  
 
 Exercise:
- - Simple Annotation Server:
+ * Simple Annotation Server:
     * https://github.com/glenrobson/SimpleAnnotationServer/blob/mirador-2.1.4/doc/IIIFSearch.md
- - Index Manifest: http://swib.gdmrdigital.com/sas/uploadManifest.html
-   * Note search link
- - Annotate manifest using mirador: http://swib.gdmrdigital.com/
- - Add search service replacing `@id` with id from the index manifest above.
+ * Index Manifest: http://swib.gdmrdigital.com/sas/uploadManifest.html
+    * Note search link
+ * Annotate manifest using mirador: http://swib.gdmrdigital.com/
+ * Add search service replacing `@id` with id from the index manifest above.
 ```
 "service": [
     {
@@ -175,7 +179,7 @@ Exercise:
     }
 ]
 ```
-  - Load manifest into: http://universalviewer.io/
+  * Load manifest into: http://universalviewer.io/
 
 ## IIIF Authentication api
 Spec:
@@ -195,11 +199,11 @@ Cooper Hewitt Example metadata:
  * https://github.com/cooperhewitt/collection/blob/master/objects/169/619/579/169619579.json
 
 
- ## Feedback form
+## Feedback form
 
  https://goo.gl/forms/fZmCbOxzlfTwZBjF2  
 
- ## Contact
+## Contact
 
  Glen Robson - IIIF Technical Coordinator
  glen.robson [at] iiif.io
