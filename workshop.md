@@ -79,7 +79,7 @@ Image Server options:
 
 Image API Cantaloupe install
  * https://iiif.github.io/training/intro-to-iiif/INSTALLING_CANTALOUPE.html
- * If you don't have access to the command line you can download the following bat file to start Cantaloupe: [startCantaloupe.bat](files/startCantaloupe.bat)
+ * If you don't have access to the command line you can download the following bat file to start Cantaloupe: [startCantaloupe.bat](files/startCantaloupe.bat). Store this in the Cantaloupe directory.
 
 Exercises
  * Show image in Leaflet
@@ -90,6 +90,7 @@ Exercises
     * https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.ucd.ie/loris/ivrla:10408
  * HTML page:
     * Create simple HTML page with img link
+    * e.g. [showImage.html](files/showImage.html)
  * Image comparison:
     * http://ronallo.com/iiif-workshop/image/comparison.html
 
