@@ -32,7 +32,7 @@ Step 4:
 14:           "@id": "http://localhost:3000/manifest/canvas/1.json",
 ```
 
-'''Note:''' in real live localhost:3000 is not a good id to use as it is not unique.
+**Note:** in real live localhost:3000 is not a good id to use as it is not unique.
 
  * Now change the `on` value to match the canvas id you've created:
 ```
@@ -153,7 +153,7 @@ and the width is 6132 and the height is 8176. Now add these to your manifest:
 17: "height": 8176,
 ```
 
-'''Note:''' you don't need speech marks around numbers.
+**Note:** you don't need speech marks around numbers.
 
 Now add the id:
 ```
@@ -172,7 +172,7 @@ Step 6:
   * Select 'Replace Object'
   * Add you manifest url to `Add new object from URL:`
   * Click load.
-  * All being well your manifest should appear. 
+  * All being well your manifest should appear.
 
 Exercises
  * Validate Manifest with

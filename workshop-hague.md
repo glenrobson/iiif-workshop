@@ -114,7 +114,7 @@ Example manifest with OCR annotations:
  * https://damsssl.llgc.org.uk/iiif/2.0/1097087/manifest.json
 
 Creating your own manifest:
- * (Quick Manifest creation)[createManifest.md]
+ * [createManifest.md](Quick Manifest creation)
  * http://ronallo.com/iiif-workshop/presentation/creating-manifest.html
 
 Exercises
