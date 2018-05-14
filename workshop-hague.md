@@ -115,6 +115,7 @@ Example manifest with OCR annotations:
 
 Creating your own manifest:
  * [Quick Manifest creation](createManifest.md)
+ * [Manifest Editor](http://iiif.bodleian.ox.ac.uk/manifest-editor/#/?_k=v4m3u4)
  * http://ronallo.com/iiif-workshop/presentation/creating-manifest.html
 
 Exercises
