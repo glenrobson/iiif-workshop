@@ -1,4 +1,6 @@
-This page: **http://bit.ly/iiif-va-workshop**
+This page: **http://bit.ly/IIIF-workshop-hague-2018**
+## About the Author:
+ * Glen Robson, IIIF Technical Coordinator http://twitter.com/glenrobson
 
 ## Prerequisites:
 
@@ -30,15 +32,6 @@ Interoperable - Images
 
 Interoperable - Collections
  * Ben Albritton’s blog: http://stanford.io/1PW789d
-
-Europeana
- * http://www.europeana.eu/portal/en/record/07932/diglit_stahd_h106.html?q=jost+pirckhammer
-
-musiclibs
- * http://musiclibs.net
-
-Museum Use cases
- * https://youtu.be/AefD7wbfTFU
 
 Image API:
  * IIIF Image API specification: http://iiif.io/api/image/2.1/
@@ -85,7 +78,7 @@ Exercises
  * Show image in Leaflet
     * http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json
  - Show image in Openseadragon
-    * Todo
+    * http://iiif.gdmrdigital.com/openseadragon/index.html?image=http://iiif.gdmrdigital.com/image/iiif/2/lc%2finsets%2fAoM_00_Left%20Hand_Hand%20Yellow%20Green%20Overlap.jp2/info.json
  * Image cropping
     * https://jbhoward-dublin.github.io/IIIF-imageManipulation/index.html?imageID=https://iiif.ucd.ie/loris/ivrla:10408
  * HTML page:
@@ -93,6 +86,8 @@ Exercises
     * e.g. [showImage.html](files/showImage.html)
  * Image comparison:
     * http://ronallo.com/iiif-workshop/image/comparison.html
+
+---------------------------------------------------------------
 
 ## Presentation API
 
@@ -119,17 +114,8 @@ Example manifest with OCR annotations:
  * https://damsssl.llgc.org.uk/iiif/2.0/1097087/manifest.json
 
 Creating your own manifest:
+ * (Quick Manifest creation)[createManifest.md]
  * http://ronallo.com/iiif-workshop/presentation/creating-manifest.html
-
-IIIF Audio and Visual
- * Fire example: https://tomcrane.github.io/fire/
-
-IIIF Search API
- * API: http://iiif.io/api/search/1.0/
- * UV viewer search: https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01/
-
-Authentication API:
- * http://iiif.io/api/auth/1.0/
 
 Exercises
  * Validate Manifest with
@@ -140,6 +126,19 @@ Exercises
     * http://universalviewer.io/
  * Annotate with
     * http://swib.gdmrdigital.com/
+
+---------------------------------------------------------------
+
+## Extras
+IIIF Audio and Visual
+ * Fire example: https://tomcrane.github.io/fire/
+
+IIIF Search API
+ * API: http://iiif.io/api/search/1.0/
+ * UV viewer search: https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01/
+
+Authentication API:
+ * http://iiif.io/api/auth/1.0/
 
 Community:
  * Email group: iiif-discuss@google.com   
@@ -161,42 +160,6 @@ Example auto suggest:
   * https://ocr.lib.ncsu.edu/suggest/nubian-message-1995-04-01?q=war
 Search in UV:
   * https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01/  
-
-Exercise:
- * Simple Annotation Server:
-    * https://github.com/glenrobson/SimpleAnnotationServer/blob/mirador-2.1.4/doc/IIIFSearch.md
- * Index Manifest: http://swib.gdmrdigital.com/sas/uploadManifest.html
-    * Note search link
- * Annotate manifest using mirador: http://swib.gdmrdigital.com/
- * Add search service replacing `@id` with id from the index manifest above.
-```
-"service": [
-    {
-        "@context": "http://iiif.io/api/search/0/context.json",
-        "@id": "https://ocr.lib.ncsu.edu/search/nubian-message-1995-04-01",
-        "profile": "http://iiif.io/api/search/0/search",
-        "label": "Search within this thing"
-    }
-]
-```
-  * Load manifest into: http://universalviewer.io/
-
-## IIIF Authentication api
-Spec:
- * http://iiif.io/api/auth/1.0/  
-
-## Further reading:
- * IIIF Guide: http://resources.digirati.com/iiif/an-introduction-to-iiif/ from Tom Crane
- * A two day workshop from Jason Ronallo: http://ronallo.com/iiif-workshop/
- * Hands on workshop from Jack Reed and Drew Widget: https://iiif.github.io/training/intro-to-iiif/
- * List of IIIF compatible software and projects: https://github.com/IIIF/awesome-iiif
-
-## Extras
-Crowdsourcing:
- * https://www.youtube.com/playlist?list=PLMd2mmRYjSJlKs829X0z_kYueQemSfwDd
-
-Cooper Hewitt Example metadata:
- * https://github.com/cooperhewitt/collection/blob/master/objects/169/619/579/169619579.json
 
 
 ## Feedback form

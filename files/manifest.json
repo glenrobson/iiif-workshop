@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "**CHANGE_ME** - e.g. http://localhost:3000/manifest.json",
+  "label": "**CHANGE_ME** - this is a basic label for a Manifest",
+  "description": "**CHANGE_ME** - a longer description for an item",
+  "attribution": "**CHANGE_ME** - any rights or credit information",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "**CHANGE_ME** needs to be unique but not resolvable. e.g. http://localhost:3000/manifest/canvas/1.json",
+          "label": "22",
+          "width": **CHANGE_ME** get from info.json e.g. 6099,
+          "height":**CHANGE_ME** get from info.json e.g. 8599,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "**CHANGE_ME** needs to match what you have as @id on the canvas",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "**CHANGE_ME** for Mirador this must resolve to an image. e.g. https://iiif.lib.ncsu.edu/iiif/segPap_022/full/500,/0/default.jpg",
+
+                "service": {
+                  "@context":  "http://iiif.io/api/image/2/context.json",
+                  "@id": "**CHANGE_ME** to your image e.g.: http://127.0.0.1:8182/iiif/2/eddie.jpg/",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
