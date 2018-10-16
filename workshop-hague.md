@@ -15,8 +15,8 @@ For the IIIF Image API:
 For working on the Presentation API:
  * Chrome Web Server: http://ronallo.com/iiif-workshop/preparation/web-server.html (For working with Manifests).
  * If you are comfortable with Apache or nginx you could use that but you will need to add the CORS headers see:
-  * For apache http://iiif.io/api/annex/notes/apache/ and
-  * For nginx: https://github.com/IIIF/api/issues/737
+   * For apache http://iiif.io/api/annex/notes/apache/ and
+   * For nginx: https://github.com/IIIF/api/issues/737
  * And http://ronallo.com/iiif-workshop/preparation/directory.html to check the webserver is working.
  * Text editor, preferably one that does syntax highlighting and brace matching (e.g. Atom)
 
