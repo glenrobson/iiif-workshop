@@ -1,4 +1,4 @@
-This page: **http://bit.ly/IIIF-workshop-**
+This page: **http://bit.ly/IIIF-workshop-edinburgh-2018**
 ## About the Author:
  * Glen Robson, IIIF Technical Coordinator http://twitter.com/glenrobson
 
