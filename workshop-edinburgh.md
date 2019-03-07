@@ -133,6 +133,9 @@ Exercises
 ## Extras
 IIIF Audio and Visual
  * Fire example: https://tomcrane.github.io/fire/
+ * Basic example: https://iiif.gdmrdigital.com/nlw/LLOYD_GEORGE_FARMING-mp4.json
+ * Basic example in the UV: 
+https://universalviewer.io/examples/#?c=&m=&s=&cv=&manifest=https%3A%2F%2Fiiif.gdmrdigital.com%2Fnlw%2FLLOYD_GEORGE_FARMING-mp4.json
 
 IIIF Search API
  * API: http://iiif.io/api/search/1.0/
