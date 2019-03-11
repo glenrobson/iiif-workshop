@@ -1,4 +1,5 @@
-This page: **http://bit.ly/IIIF-workshop-edinburgh-2018**
+This page: **http://bit.ly/iiif-sweden-workshop-2019**
+
 ## About the Author:
  * Glen Robson, IIIF Technical Coordinator http://twitter.com/glenrobson
 
@@ -26,12 +27,6 @@ For working on the Presentation API:
  Interoperable - viewers
  * http://projectmirador.org/demo/
  * http://hdl.handle.net/10107/4574752
-
-Interoperable - Images
- * Edge MS No. 1 Manuscript - http://projectmirador.org/demo/
-
-Interoperable - Collections
- * Ben Albritton’s blog: http://stanford.io/1PW789d
 
 Image API:
  * IIIF Image API specification: http://iiif.io/api/image/2.1/
